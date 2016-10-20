@@ -1,4 +1,4 @@
-HEADER {
+#ricerca {
     background-color: #f5f5f5;
     padding: 20px;
 }
@@ -17,12 +17,24 @@ HEADER {
     display: none;
 }
 
-#tbody_film {
-    display: none;
+
+#tbody_film TR {
+    cursor: pointer;
+}
+
+.modal-content {
+    width: 800px;
+    height: 600px;
+}
+
+#dettaglio_tab TD {
+    width: 200px;
+    height: 200px
+    
 }
 
 footer {
-    
+    position: absolute;
     width: 60%;
     height: 60px;
     background-color: #f5f5f5;
