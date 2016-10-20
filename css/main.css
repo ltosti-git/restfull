@@ -4,10 +4,26 @@ HEADER {
 }
 
 
+#form {
+    width: 60%;
+    background-color: #f5f5f5;
+}
+
+/*#content {
+    display: none;
+}*/
+
+#film {
+    display: none;
+}
+
+#tbody_film {
+    display: none;
+}
+
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    
+    width: 60%;
     height: 60px;
     background-color: #f5f5f5;
 }
